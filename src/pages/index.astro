@@ -1,14 +1,8 @@
 ---
 import IndexLayout from '../layouts/IndexLayout.astro';
-import Presentation from "../components/react/Presentation.jsx";
-import Hero from '../components/Hero.astro';
-
-// Welcome to Astro! Wondering what to do next? Check out the Astro documentation at https://docs.astro.build
-// Don't want to use any of this? Delete everything in this file, the `assets`, `components`, and `layouts` directories, and start fresh.
+import Presentation from '../components/Presentation.astro'
 ---
 
 <IndexLayout>
-    <Presentation client:load>
-        <Hero/>
-    </Presentation>
+    <Presentation />
 </IndexLayout>
